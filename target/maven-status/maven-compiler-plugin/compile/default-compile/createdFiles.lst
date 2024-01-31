@@ -13,5 +13,5 @@ org/acme/people/model/DataTable.class
 org/acme/people/model/Person.class
 org/acme/people/model/StarWarsPerson.class
 org/acme/people/stream/NameGenerator.class
-META-INF/panache-archive.marker
+org/acme/people/rest/JWTResource.class
 org/acme/people/rest/GreetingResource.class

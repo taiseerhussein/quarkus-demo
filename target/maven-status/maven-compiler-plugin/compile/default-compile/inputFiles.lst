@@ -1,3 +1,4 @@
+/projects/quarkus-demo/src/main/java/org/acme/people/rest/JWTResource.java
 /projects/quarkus-demo/src/main/java/org/acme/people/model/EyeColor.java
 /projects/quarkus-demo/src/main/java/org/acme/people/health/DataHealthCheck.java
 /projects/quarkus-demo/src/main/java/org/acme/people/model/StarWarsPerson.java

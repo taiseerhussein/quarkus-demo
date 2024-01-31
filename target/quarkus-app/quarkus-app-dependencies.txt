@@ -119,6 +119,7 @@ io.quarkus:quarkus-openshift::jar:3.2.6.Final-redhat-00002
 io.quarkus:quarkus-opentelemetry::jar:3.2.6.Final-redhat-00002
 io.quarkus:quarkus-panache-common::jar:3.2.6.Final-redhat-00002
 io.quarkus:quarkus-panache-hibernate-common::jar:3.2.6.Final-redhat-00002
+io.quarkus:quarkus-reactive-routes::jar:3.2.6.Final-redhat-00002
 io.quarkus:quarkus-rest-client-config::jar:3.2.6.Final-redhat-00002
 io.quarkus:quarkus-rest-client-reactive-jackson::jar:3.2.6.Final-redhat-00002
 io.quarkus:quarkus-rest-client-reactive::jar:3.2.6.Final-redhat-00002
@@ -127,8 +128,11 @@ io.quarkus:quarkus-resteasy-reactive-jackson-common::jar:3.2.6.Final-redhat-0000
 io.quarkus:quarkus-resteasy-reactive-jackson::jar:3.2.6.Final-redhat-00002
 io.quarkus:quarkus-resteasy-reactive::jar:3.2.6.Final-redhat-00002
 io.quarkus:quarkus-security-runtime-spi::jar:3.2.6.Final-redhat-00002
+io.quarkus:quarkus-security::jar:3.2.6.Final-redhat-00002
 io.quarkus:quarkus-smallrye-context-propagation::jar:3.2.6.Final-redhat-00002
 io.quarkus:quarkus-smallrye-health::jar:3.2.6.Final-redhat-00002
+io.quarkus:quarkus-smallrye-jwt-build::jar:3.2.6.Final-redhat-00002
+io.quarkus:quarkus-smallrye-jwt::jar:3.2.6.Final-redhat-00002
 io.quarkus:quarkus-smallrye-openapi::jar:3.2.6.Final-redhat-00002
 io.quarkus:quarkus-smallrye-reactive-messaging-kafka::jar:3.2.6.Final-redhat-00002
 io.quarkus:quarkus-smallrye-reactive-messaging-kotlin::jar:3.2.6.Final-redhat-00002
@@ -183,6 +187,9 @@ io.smallrye:smallrye-fault-tolerance-vertx::jar:6.2.6.redhat-00001
 io.smallrye:smallrye-health-api::jar:4.0.4.redhat-00001
 io.smallrye:smallrye-health-provided-checks::jar:4.0.4.redhat-00001
 io.smallrye:smallrye-health::jar:4.0.4.redhat-00001
+io.smallrye:smallrye-jwt-build::jar:4.3.0.redhat-00001
+io.smallrye:smallrye-jwt-common::jar:4.3.0.redhat-00001
+io.smallrye:smallrye-jwt::jar:4.3.0.redhat-00001
 io.smallrye:smallrye-open-api-core::jar:3.4.0.redhat-00001
 io.vertx:vertx-auth-common::jar:4.4.4.redhat-00001
 io.vertx:vertx-bridge-common::jar:4.4.4.redhat-00001
@@ -213,10 +220,12 @@ jakarta.xml.bind:jakarta.xml.bind-api::jar:4.0.0.redhat-00008
 net.bytebuddy:byte-buddy::jar:1.12.18.redhat-00004
 org.antlr:antlr4-runtime::jar:4.10.1.redhat-00001
 org.apache.kafka:kafka-clients::jar:3.4.0.redhat-00006
+org.bitbucket.b_c:jose4j::jar:0.9.3.redhat-00004
 org.eclipse.angus:angus-activation::jar:2.0.1.redhat-00004
 org.eclipse.microprofile.config:microprofile-config-api::jar:3.0.3.redhat-00001
 org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api::jar:1.3.0.redhat-00001
 org.eclipse.microprofile.health:microprofile-health-api::jar:4.0.1.redhat-00001
+org.eclipse.microprofile.jwt:microprofile-jwt-auth-api::jar:2.1.0.redhat-00001
 org.eclipse.microprofile.openapi:microprofile-openapi-api::jar:3.1.1.redhat-00001
 org.eclipse.microprofile.reactive-streams-operators:microprofile-reactive-streams-operators-api::jar:3.0.0.redhat-00001
 org.eclipse.microprofile.reactive-streams-operators:microprofile-reactive-streams-operators-core::jar:3.0.0.redhat-00001

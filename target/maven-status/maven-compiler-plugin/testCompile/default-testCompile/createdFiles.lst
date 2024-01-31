@@ -1,0 +1,6 @@
+META-INF/panache-archive.marker
+org/acme/people/GreetingResourceTest.class
+org/acme/people/GreetingResourceIT.class
+org/acme/people/GreetingServiceTest.class
+org/acme/people/MockGreetingService.class
+org/acme/people/StaticContentTest.class

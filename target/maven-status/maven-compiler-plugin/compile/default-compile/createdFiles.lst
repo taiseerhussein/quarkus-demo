@@ -1,0 +1,15 @@
+org/acme/people/service/GreetingService.class
+org/acme/people/health/DatabaseConnectionHealthCheck.class
+org/acme/people/health/DataHealthCheck.class
+org/acme/people/health/SimpleHealthCheck.class
+org/acme/people/service/PersonService.class
+org/acme/people/model/DataTable.class
+org/acme/people/model/Person.class
+org/acme/people/stream/NameConverter.class
+org/acme/people/stream/NameResource.class
+org/acme/people/rest/PersonResource.class
+org/acme/people/model/EyeColor.class
+org/acme/people/stream/NameGenerator.class
+META-INF/panache-archive.marker
+org/acme/people/rest/GreetingResource.class
+org/acme/people/utils/CuteNameGenerator.class

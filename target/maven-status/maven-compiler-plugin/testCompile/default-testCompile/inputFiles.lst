@@ -1,0 +1,5 @@
+/projects/quarkus-workshop-m1m2-labs/src/test/java/org/acme/people/GreetingResourceIT.java
+/projects/quarkus-workshop-m1m2-labs/src/test/java/org/acme/people/GreetingResourceTest.java
+/projects/quarkus-workshop-m1m2-labs/src/test/java/org/acme/people/MockGreetingService.java
+/projects/quarkus-workshop-m1m2-labs/src/test/java/org/acme/people/GreetingServiceTest.java
+/projects/quarkus-workshop-m1m2-labs/src/test/java/org/acme/people/StaticContentTest.java

@@ -1,0 +1,14 @@
+/projects/quarkus-workshop-m1m2-labs/src/main/java/org/acme/people/model/DataTable.java
+/projects/quarkus-workshop-m1m2-labs/src/main/java/org/acme/people/stream/NameResource.java
+/projects/quarkus-workshop-m1m2-labs/src/main/java/org/acme/people/health/DataHealthCheck.java
+/projects/quarkus-workshop-m1m2-labs/src/main/java/org/acme/people/utils/CuteNameGenerator.java
+/projects/quarkus-workshop-m1m2-labs/src/main/java/org/acme/people/health/SimpleHealthCheck.java
+/projects/quarkus-workshop-m1m2-labs/src/main/java/org/acme/people/stream/NameConverter.java
+/projects/quarkus-workshop-m1m2-labs/src/main/java/org/acme/people/rest/GreetingResource.java
+/projects/quarkus-workshop-m1m2-labs/src/main/java/org/acme/people/model/Person.java
+/projects/quarkus-workshop-m1m2-labs/src/main/java/org/acme/people/rest/PersonResource.java
+/projects/quarkus-workshop-m1m2-labs/src/main/java/org/acme/people/stream/NameGenerator.java
+/projects/quarkus-workshop-m1m2-labs/src/main/java/org/acme/people/service/GreetingService.java
+/projects/quarkus-workshop-m1m2-labs/src/main/java/org/acme/people/model/EyeColor.java
+/projects/quarkus-workshop-m1m2-labs/src/main/java/org/acme/people/service/PersonService.java
+/projects/quarkus-workshop-m1m2-labs/src/main/java/org/acme/people/health/DatabaseConnectionHealthCheck.java

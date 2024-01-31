@@ -14,6 +14,7 @@ import org.acme.people.service.GreetingService;
 import jakarta.ws.rs.PathParam;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 import java.util.Optional;
+import io.micrometer.core.instrument.MeterRegistry;
 
 @Path("/hello")
 public class GreetingResource {
@@ -40,11 +41,13 @@ public class GreetingResource {
     public String greeting(@PathParam("name") String name) {
         return service.greeting(name);
     }
+    
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     @NonBlocking
     public String hello() {
-        return message + " " + name.orElse("world") + suffix;
+        registry.counter("greeting.hello.counter").increment();
+        return "hello";
     }
 
         @GET
@@ -55,5 +58,11 @@ public class GreetingResource {
         String lastLetter = name.substring(len);
         log.info("Got last letter: " + lastLetter);
         return lastLetter;
+    }
+
+    private final MeterRegistry registry;
+
+    GreetingResource(MeterRegistry registry) {
+        this.registry = registry;
     }
 }

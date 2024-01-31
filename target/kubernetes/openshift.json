@@ -4,8 +4,12 @@
   "metadata" : {
     "annotations" : {
       "app.openshift.io/vcs-url" : "<<unknown>>",
-      "app.quarkus.io/commit-id" : "e4de24b75fe3e56b67360458aa1de9ad19b5c2af",
-      "app.quarkus.io/build-timestamp" : "2024-01-31 - 05:50:34 +0000"
+      "app.quarkus.io/commit-id" : "da5aa11855367edf60d42c52105c26188708ca46",
+      "app.quarkus.io/build-timestamp" : "2024-01-31 - 19:11:55 +0000",
+      "prometheus.io/scrape" : "true",
+      "prometheus.io/path" : "/q/metrics",
+      "prometheus.io/port" : "8080",
+      "prometheus.io/scheme" : "http"
     },
     "labels" : {
       "app.kubernetes.io/name" : "people",
@@ -50,8 +54,8 @@
   "metadata" : {
     "annotations" : {
       "app.openshift.io/vcs-url" : "<<unknown>>",
-      "app.quarkus.io/commit-id" : "e4de24b75fe3e56b67360458aa1de9ad19b5c2af",
-      "app.quarkus.io/build-timestamp" : "2024-01-31 - 05:50:34 +0000"
+      "app.quarkus.io/commit-id" : "da5aa11855367edf60d42c52105c26188708ca46",
+      "app.quarkus.io/build-timestamp" : "2024-01-31 - 19:11:55 +0000"
     },
     "labels" : {
       "app.kubernetes.io/name" : "people",
@@ -72,8 +76,8 @@
   "metadata" : {
     "annotations" : {
       "app.openshift.io/vcs-url" : "<<unknown>>",
-      "app.quarkus.io/commit-id" : "e4de24b75fe3e56b67360458aa1de9ad19b5c2af",
-      "app.quarkus.io/build-timestamp" : "2024-01-31 - 05:50:34 +0000"
+      "app.quarkus.io/commit-id" : "da5aa11855367edf60d42c52105c26188708ca46",
+      "app.quarkus.io/build-timestamp" : "2024-01-31 - 19:11:55 +0000"
     },
     "labels" : {
       "app.kubernetes.io/name" : "people",
@@ -103,8 +107,12 @@
   "metadata" : {
     "annotations" : {
       "app.openshift.io/vcs-url" : "<<unknown>>",
-      "app.quarkus.io/commit-id" : "e4de24b75fe3e56b67360458aa1de9ad19b5c2af",
-      "app.quarkus.io/build-timestamp" : "2024-01-31 - 05:50:34 +0000"
+      "app.quarkus.io/commit-id" : "da5aa11855367edf60d42c52105c26188708ca46",
+      "app.quarkus.io/build-timestamp" : "2024-01-31 - 19:11:55 +0000",
+      "prometheus.io/scrape" : "true",
+      "prometheus.io/path" : "/q/metrics",
+      "prometheus.io/port" : "8080",
+      "prometheus.io/scheme" : "http"
     },
     "labels" : {
       "app.kubernetes.io/managed-by" : "quarkus",
@@ -126,8 +134,12 @@
       "metadata" : {
         "annotations" : {
           "app.openshift.io/vcs-url" : "<<unknown>>",
-          "app.quarkus.io/commit-id" : "e4de24b75fe3e56b67360458aa1de9ad19b5c2af",
-          "app.quarkus.io/build-timestamp" : "2024-01-31 - 05:50:34 +0000"
+          "app.quarkus.io/commit-id" : "da5aa11855367edf60d42c52105c26188708ca46",
+          "app.quarkus.io/build-timestamp" : "2024-01-31 - 19:11:55 +0000",
+          "prometheus.io/scrape" : "true",
+          "prometheus.io/path" : "/q/metrics",
+          "prometheus.io/port" : "8080",
+          "prometheus.io/scheme" : "http"
         },
         "labels" : {
           "app.kubernetes.io/managed-by" : "quarkus",
@@ -192,8 +204,8 @@
   "metadata" : {
     "annotations" : {
       "app.openshift.io/vcs-url" : "<<unknown>>",
-      "app.quarkus.io/commit-id" : "e4de24b75fe3e56b67360458aa1de9ad19b5c2af",
-      "app.quarkus.io/build-timestamp" : "2024-01-31 - 05:50:34 +0000"
+      "app.quarkus.io/commit-id" : "da5aa11855367edf60d42c52105c26188708ca46",
+      "app.quarkus.io/build-timestamp" : "2024-01-31 - 19:11:55 +0000"
     },
     "labels" : {
       "app.kubernetes.io/name" : "people",

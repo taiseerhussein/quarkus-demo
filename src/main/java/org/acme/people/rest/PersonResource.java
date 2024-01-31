@@ -32,6 +32,10 @@ import io.vertx.mutiny.core.eventbus.EventBus;
 import jakarta.inject.Inject;
 import io.smallrye.mutiny.Uni;
 import jakarta.ws.rs.POST;
+import org.acme.people.model.StarWarsPerson;
+import org.acme.people.service.StarWarsService;
+import org.eclipse.microprofile.rest.client.inject.RestClient;
+import java.util.stream.IntStream;
 
 @Path("/person")
 @ApplicationScoped
@@ -46,6 +50,19 @@ public class PersonResource {
     }
 
     // TODO: add basic queries
+    
+    @Inject
+    @RestClient
+    StarWarsService swService; 
+
+    @GET
+    @Path("/swpeople")
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<StarWarsPerson> getCharacters() {
+        return IntStream.range(1, 6) 
+            .mapToObj(swService::getPerson)  
+            .collect(Collectors.toList());  
+    }
 
     @GET
     @Path("/eyes/{color}")

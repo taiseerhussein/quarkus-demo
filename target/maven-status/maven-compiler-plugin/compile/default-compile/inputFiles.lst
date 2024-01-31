@@ -1,11 +1,13 @@
 /projects/quarkus-demo/src/main/java/org/acme/people/model/EyeColor.java
 /projects/quarkus-demo/src/main/java/org/acme/people/health/DataHealthCheck.java
+/projects/quarkus-demo/src/main/java/org/acme/people/model/StarWarsPerson.java
 /projects/quarkus-demo/src/main/java/org/acme/people/stream/NameResource.java
 /projects/quarkus-demo/src/main/java/org/acme/people/stream/NameConverter.java
 /projects/quarkus-demo/src/main/java/org/acme/people/health/DatabaseConnectionHealthCheck.java
 /projects/quarkus-demo/src/main/java/org/acme/people/model/DataTable.java
 /projects/quarkus-demo/src/main/java/org/acme/people/rest/PersonResource.java
 /projects/quarkus-demo/src/main/java/org/acme/people/utils/CuteNameGenerator.java
+/projects/quarkus-demo/src/main/java/org/acme/people/service/StarWarsService.java
 /projects/quarkus-demo/src/main/java/org/acme/people/stream/NameGenerator.java
 /projects/quarkus-demo/src/main/java/org/acme/people/rest/GreetingResource.java
 /projects/quarkus-demo/src/main/java/org/acme/people/model/Person.java
